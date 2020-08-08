@@ -18,6 +18,7 @@ permalink: /notes/unity-development/
 
 - [Unity User Manual](https://docs.unity3d.com/Manual/index.html)
 - [Scripting API](https://docs.unity3d.com/ScriptReference/index.html)
+- [Use Visual Studio Tools for Unity](https://docs.microsoft.com/en-us/visualstudio/cross-platform/using-visual-studio-tools-for-unity)
 
 ## Tutorials
 
