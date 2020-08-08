@@ -1,21 +1,23 @@
 ---
 layout: post
-title: Firebase Live 2020 Notes
+title: Unit Testing Firestore Security Rules
 ---
 
-- [Watch Firebase Live 2020](https://firebaseonair.withgoogle.com/events/firebase-live20)
-- [Firebase Blog](https://firebase.googleblog.com/) 
+Notes taken from Firebase Live 2020 presentation.
 
-## Unit testing security rules with the new Firebase emulator suite
+- [Watch Video](https://www.youtube.com/watch?v=8CR86yFmY2I)
+- [Firebase Live 2020](https://firebaseonair.withgoogle.com/events/firebase-live20)
+- [Firebase Blog](https://firebase.googleblog.com/)
 
-- https://www.youtube.com/watch?v=8CR86yFmY2I
+## Introduction
+
 - Develop locally against emulators first before touching instances in the cloud.
     - Speed
     - Safety
     - Cost
 - [VSCode Firebase Extension](https://marketplace.vscode.pro/vsfire) with Firestore Security Rules syntax highlighting
 - `npm -i g firebase-tools` Install latest Firebase CLI tools.
-- Security rules aren't a filter.
+- Security rules aren't a filter / a way to query.
 - Reads are done on a document basis, can't return fields within a doc.
 
 ### Examples
